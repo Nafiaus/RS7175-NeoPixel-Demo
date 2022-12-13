@@ -22,7 +22,7 @@ void loop() {
   if(readButton(BUTTON_PIN) == 1) {
     mode+=1;
   }
-  if(mode >= 4) {
+  if(mode >= 3) {
     mode = 0;
   }
   switch(mode) {
